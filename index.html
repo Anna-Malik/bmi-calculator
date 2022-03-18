@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/body.css" rel="stylesheet">
+    <link href="CSS/mainContainer.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+
+</head>
+<body class="body">
+    <div class="mainContainer">
+        <h1 class="mainContainer mainContainer__header">Know your BMI!</h1>
+       <form class="js-form mainContainer__form">
+<fieldset class="mainContainer__fieldset">
+    <ul>
+        <li class="mainContainer__fieldsetList"><label><span class="mainContainer__labelText">Your height (cm)*</span><input name="heightInput" required min="100" max="220" type="number" step="any" class="js-height"></label></li>
+        <li class="mainContainer__fieldsetList"><label><span class="mainContainer__labelText">Your weight (kg)*</span><input name="weightInput" required min="30" type="number" step="any" class="js-weight"></label></li>
+    </ul>
+    <span class="mainContainer__buttonContainer"><button class="mainContainer__button js-button">Check BMI</button></span>
+
+    <p>* fields required</p>
+    <p class="mainContainer__result">Your BMI: <span class="js-result"></span></p>
+    
+</fieldset>
+
+       </form>
+    </div>
+    
+</body>
+</html>
