@@ -7,7 +7,7 @@
 
     text-align: center;
     font-size: 60px;
-    padding-top: 20px;
+    padding-top: 10px;
     
 }
 
@@ -67,4 +67,9 @@
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
+}
+
+.mainContainer__rangeText {
+    
+    font-size: xx-small;
 }
