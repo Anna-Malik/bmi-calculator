@@ -33,7 +33,7 @@
     max-width: 140px;
     display: inline-block;
     width: 100%;
-    font-size: larger;
+    font-size: 600;
     padding: 20px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .mainContainer__button:hover {
-    background-color: rgb(248, 234, 169);
+    background-color: rgb(204, 189, 120);
 
 }
 
@@ -66,10 +66,10 @@
 
     text-align: center;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .mainContainer__rangeText {
     
-    font-size: xx-small;
+    font-size: x-small;
 }
