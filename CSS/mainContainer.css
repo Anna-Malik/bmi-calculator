@@ -42,7 +42,6 @@
 
     list-style: none;
 
-
 }
 
 .mainContainer__button {
@@ -51,14 +50,14 @@
     border-radius: 5px;
     background-color: #e8c204;
     width: 200px;
-    
-    
-
+   
 }
 
 .mainContainer__button:hover {
-    background-color: rgb(204, 189, 120);
-
+    background: hsl(49, 45%, 60%);
+    transition: 1s;
+    transform: scale(1.2);
+    
 }
 
 
